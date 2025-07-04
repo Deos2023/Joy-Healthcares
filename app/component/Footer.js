@@ -1,5 +1,9 @@
 "use client";
-import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import Link from "next/link";
+import { 
+  FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock, 
+  FaFacebook, FaTwitter, FaInstagram 
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -42,11 +46,21 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="hover:text-teal-300">Home</a></li>
-              <li><a href="/about" className="hover:text-teal-300">About Us</a></li>
-              <li><a href="/services" className="hover:text-teal-300">Services</a></li>
-              <li><a href="/contact" className="hover:text-teal-300">Contact</a></li>
-              {/* <li><a href="/blog" className="hover:text-teal-300">Blog</a></li> */}
+              <li>
+                <Link href="/" className="hover:text-teal-300">Home</Link>
+              </li>
+              <li>
+                <Link href="/about" className="hover:text-teal-300">About Us</Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-teal-300">Services</Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-teal-300">Contact</Link>
+              </li>
+              {/* <li>
+                <Link href="/blog" className="hover:text-teal-300">Blog</Link>
+              </li> */}
             </ul>
           </div>
 
@@ -98,7 +112,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-teal-800 mt-8 pt-6 text-center">
           <p>
-            © {new Date().getFullYear()} Joy Health Cares. All rights reserved. Website Develope and maintained by Digital Exposure Online Services .
+            © {new Date().getFullYear()} Joy Health Cares. All rights reserved. Website developed and maintained by Digital Exposure Online Services.
           </p>
         </div>
       </div>
