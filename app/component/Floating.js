@@ -1,33 +1,27 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { FaPhone, FaWhatsapp, FaArrowUp, FaMapMarkerAlt, FaClock, FaEnvelope } from "react-icons/fa";
 
+// Floating Buttons
 export function FloatingButtons() {
   const [showScrollButton, setShowScrollButton] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowScrollButton(true);
-      } else {
-        setShowScrollButton(false);
-      }
+      setShowScrollButton(window.scrollY > 300);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
-      {/* Always visible WhatsApp button */}
+      {/* WhatsApp Button */}
       <a
         href="https://wa.me/919674998665"
         target="_blank"
@@ -38,7 +32,7 @@ export function FloatingButtons() {
         <FaWhatsapp className="text-2xl" />
       </a>
 
-      {/* Always visible Call button */}
+      {/* Call Button */}
       <a
         href="tel:9674998665"
         className="bg-teal-700 text-white p-4 rounded-full shadow-lg hover:bg-teal-800 transition-colors"
@@ -47,7 +41,7 @@ export function FloatingButtons() {
         <FaPhone className="text-2xl" />
       </a>
 
-      {/* Scroll to top button (appears on scroll) */}
+      {/* Scroll to top button */}
       {showScrollButton && (
         <button
           onClick={scrollToTop}
@@ -61,10 +55,10 @@ export function FloatingButtons() {
   );
 }
 
+// Footer Section
 export function FooterWithMap() {
   return (
     <footer className="bg-teal-900 text-white relative">
-      {/* Wavey Top */}
       <svg
         className="absolute top-0 left-0 w-full rotate-180"
         viewBox="0 0 1440 150"
@@ -114,15 +108,15 @@ export function FooterWithMap() {
           <div>
             <h3 className="text-2xl font-bold mb-6">Quick Links</h3>
             <ul className="space-y-3">
-              <li><a href="/" className="hover:text-teal-300">Home</a></li>
-              <li><a href="/about" className="hover:text-teal-300">About Us</a></li>
-              <li><a href="/services" className="hover:text-teal-300">Services</a></li>
-              <li><a href="/contact" className="hover:text-teal-300">Contact</a></li>
-              <li><a href="/equipment" className="hover:text-teal-300">Medical Equipment</a></li>
+              <li><Link href="/" className="hover:text-teal-300">Home</Link></li>
+              <li><Link href="/about" className="hover:text-teal-300">About Us</Link></li>
+              <li><Link href="/services" className="hover:text-teal-300">Services</Link></li>
+              <li><Link href="/contact" className="hover:text-teal-300">Contact</Link></li>
+              <li><Link href="/equipment" className="hover:text-teal-300">Medical Equipment</Link></li>
             </ul>
           </div>
 
-          {/* Map */}
+          {/* Map Embed */}
           <div>
             <h3 className="text-2xl font-bold mb-6">Our Location</h3>
             <div className="h-64 rounded-lg overflow-hidden shadow-xl">
@@ -139,7 +133,6 @@ export function FooterWithMap() {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="border-t border-teal-800 mt-12 pt-6 text-center text-teal-300">
           <p>© {new Date().getFullYear()} Joy Health Cares. All Rights Reserved.</p>
         </div>

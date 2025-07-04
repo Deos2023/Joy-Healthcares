@@ -52,10 +52,10 @@ export default function About() {
                 Founded in 2001, Joy Health Cares began as a small nursing service provider in Kolkata with a simple mission: to deliver quality healthcare services with compassion and professionalism.
               </p>
               <p className="text-gray-700 mb-6">
-                What started as a modest operation with just a handful of nurses has grown into one of Kolkata's most trusted healthcare service providers, offering comprehensive solutions including nursing care, aya services, and medical equipment rental.
+                What started as a modest operation with just a handful of nurses has grown into one of Kolkata&apos;s most trusted healthcare service providers, offering comprehensive solutions including nursing care, aya services, and medical equipment rental.
               </p>
               <p className="text-gray-700">
-                Over the past two decades, we've served thousands of families, building lasting relationships based on trust, reliability, and exceptional service.
+                Over the past two decades, we&apos;ve served thousands of families, building lasting relationships based on trust, reliability, and exceptional service.
               </p>
             </div>
             <div className="relative h-80 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
@@ -108,7 +108,7 @@ export default function About() {
         </div>
         <h3 className="text-xl font-bold text-teal-800 mb-3 text-center">Vision</h3>
         <p className="text-gray-700 text-center">
-          To be Kolkata's most trusted healthcare service provider through innovation, compassion, and unwavering commitment to patient care.
+          To be Kolkata&apos;s most trusted healthcare service provider through innovation, compassion, and unwavering commitment to patient care.
         </p>
       </div>
 
@@ -264,7 +264,7 @@ export default function About() {
       <div className="bg-white py-16 px-8 text-center">
         <h2 className="text-3xl font-bold text-teal-800 mb-6">Join Us in Making a Difference</h2>
         <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-          Whether you need our services or want to join our team, we'd love to connect with you.
+          Whether you need our services or want to join our team, we&apos;d love to connect with you.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a 

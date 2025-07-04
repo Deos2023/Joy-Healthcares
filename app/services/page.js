@@ -311,7 +311,7 @@ export default function Services() {
             </div>
             <div>
               <p className="mb-6 text-lg">
-                Our certified nurses provide compassionate care tailored to each patient's unique needs. We carefully match nurses based on specialty and personality to ensure the best care experience.
+                Our certified nurses provide compassionate care tailored to each patient&apos;s unique needs. We carefully match nurses based on specialty and personality to ensure the best care experience.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-teal-700 p-4 rounded-lg">

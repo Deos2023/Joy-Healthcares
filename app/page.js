@@ -102,7 +102,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-700 mb-6">
-                Established in 2001, Joy Health Cares has been a trusted name in Kolkata's healthcare sector for over two decades. We specialize in providing comprehensive healthcare solutions to meet all your medical needs.
+                Established in 2001, Joy Health Cares has been a trusted name in Kolkata&apos;s healthcare sector for over two decades. We specialize in providing comprehensive healthcare solutions to meet all your medical needs.
               </p>
               <p className="text-gray-700 mb-6">
                 Our team of dedicated professionals is committed to delivering exceptional care with compassion and expertise. We understand that every patient has unique needs, and we tailor our services accordingly.
@@ -284,7 +284,7 @@ export default function Home() {
       <div className="bg-teal-900 p-8 rounded-lg">
         <h3 className="text-xl font-bold mb-4">Our Vision</h3>
         <p>
-          To be Kolkata's most trusted healthcare service provider by setting benchmarks in patient care and medical support services.
+          To be Kolkata&apos;s most trusted healthcare service provider by setting benchmarks in patient care and medical support services.
         </p>
       </div>
     </div>
@@ -319,7 +319,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "Joy Health Cares provided excellent nursing care for my mother after her surgery. The nurse was professional, punctual and very caring. Highly recommended!"
+                &quot;Joy Health Cares provided excellent nursing care for my mother after her surgery. The nurse was professional, punctual and very caring. Highly recommended!&quot;
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
@@ -333,7 +333,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "We rented a hospital bed and wheelchair for 3 months. The equipment was in perfect condition and their delivery and pickup service was very convenient."
+                &quot;We rented a hospital bed and wheelchair for 3 months. The equipment was in perfect condition and their delivery and pickup service was very convenient.&quot;
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
@@ -347,7 +347,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "Their aya service helped us tremendously when my wife delivered our baby. The aya was experienced and took great care of both mother and child."
+                &quot;Their aya service helped us tremendously when my wife delivered our baby. The aya was experienced and took great care of both mother and child.&quot;
               </p>
             </div>
           </div>

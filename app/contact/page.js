@@ -188,7 +188,7 @@ export default function Contact() {
           <div>
             <h2 className="text-4xl font-bold text-teal-800 mb-6">Send Us a Message</h2>
             <p className="text-gray-700 mb-8">
-              Have questions about our services? Fill out the form below and we'll get back to you as soon as possible.
+              Have questions about our services? Fill out the form below and we&apos;ll get back to you as soon as possible.
             </p>
             <div className="space-y-6">
               <div className="flex items-start">
